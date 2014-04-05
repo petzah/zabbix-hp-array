@@ -35,7 +35,7 @@ $controllers = eval { do $file };
 
 sub parse {
     my $acu = Parse::HP::ACU->new();
-    my $controllers = $acu->parse_config_file($hpacuclioutputfile); # from file
+    my $controllers = $acu->parse_config_file($hpfile); # from file
 #    my $controllers = $acu->parse_config(); # from output of hpacucli command (req root)
     return $controllers;
 }
