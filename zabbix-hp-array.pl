@@ -13,7 +13,7 @@ use File::Path qw( make_path );
 # config
 my $cachefile = ".hpacu";
 my $hpacuclioutputfile = "hpacucli.out"; # get this file from cron or so with "hpacucli controller all show config detail > hpacucli.out"
-my $tmpdir = "/tmp/zabbix-hp-acu";
+my $tmpdir = "/tmp/zabbix-hp-array";
 my $cacheexpire = 60; # seconds
 my $hpfile = "$tmpdir/$hpacuclioutputfile";
 my $file = "$tmpdir/$cachefile";
