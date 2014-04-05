@@ -1,0 +1,191 @@
+
+Smart Array P410 in Slot 2
+   Bus Interface: PCI
+   Slot: 2
+   Serial Number: PACCRID104728PD
+   Cache Serial Number: PAAVPID13240115
+   RAID 6 (ADG) Status: Disabled
+   Controller Status: OK
+   Hardware Revision: C
+   Firmware Version: 6.40
+   Rebuild Priority: Medium
+   Expand Priority: Medium
+   Surface Scan Delay: 3 secs
+   Surface Scan Mode: Idle
+   Queue Depth: Automatic
+   Monitor and Performance Delay: 60  min
+   Elevator Sort: Enabled
+   Degraded Performance Optimization: Disabled
+   Inconsistency Repair Policy: Disabled
+   Wait for Cache Room: Disabled
+   Surface Analysis Inconsistency Notification: Disabled
+   Post Prompt Timeout: 15 secs
+   Cache Board Present: True
+   Cache Status: OK
+   Cache Ratio: 25% Read / 75% Write
+   Drive Write Cache: Enabled
+   Total Cache Size: 512 MB
+   Total Cache Memory Available: 400 MB
+   No-Battery Write Cache: Enabled
+   Cache Backup Power Source: Batteries
+   Battery/Capacitor Count: 1
+   Battery/Capacitor Status: OK
+   SATA NCQ Supported: True
+
+   Array: A
+      Interface Type: SATA
+      Unused Space: 0  MB
+      Status: Failed Physical Drive
+      Array Type: Data
+
+      One of the drives on this array have failed or has been removed.
+
+
+
+
+      Logical Drive: 1
+         Size: 30.0 GB
+         Fault Tolerance: 1+0
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 7710
+         Strip Size: 256 KB
+         Full Stripe Size: 512 KB
+         Status: Interim Recovery Mode
+         Caching:  Enabled
+         Unique Identifier: 600508B1001CBBF4AFF3D01F1839D647
+         Disk Name: /dev/sda
+         Mount Points: /boot 512 MB
+         OS Status: LOCKED
+         Logical Drive Label: AEE78CC8PACCRID104728PD36F9
+         Mirror Group 0:
+            physicaldrive 2I:0:5 (port 2I:box 0:bay 5, SATA, 2 TB, Failed)
+            physicaldrive 2I:0:6 (port 2I:box 0:bay 6, SATA, 2 TB, OK)
+         Mirror Group 1:
+            physicaldrive 2I:0:7 (port 2I:box 0:bay 7, SATA, 2 TB, OK)
+            physicaldrive 2I:0:8 (port 2I:box 0:bay 8, SATA, 2 TB, OK)
+         Drive Type: Data
+      Logical Drive: 2
+         Size: 2.0 TB
+         Fault Tolerance: 1+0
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 65535
+         Strip Size: 256 KB
+         Full Stripe Size: 512 KB
+         Status: Interim Recovery Mode
+         Caching:  Enabled
+         Unique Identifier: 600508B1001C640F29F7186291124D1C
+         Disk Name: /dev/sdb
+         Mount Points: None
+         Logical Drive Label: AEE78CE9PACCRID104728PDD6CA
+         Mirror Group 0:
+            physicaldrive 2I:0:5 (port 2I:box 0:bay 5, SATA, 2 TB, Failed)
+            physicaldrive 2I:0:6 (port 2I:box 0:bay 6, SATA, 2 TB, OK)
+         Mirror Group 1:
+            physicaldrive 2I:0:7 (port 2I:box 0:bay 7, SATA, 2 TB, OK)
+            physicaldrive 2I:0:8 (port 2I:box 0:bay 8, SATA, 2 TB, OK)
+         Drive Type: Data
+      Logical Drive: 3
+         Size: 1.6 TB
+         Fault Tolerance: 1+0
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 65535
+         Strip Size: 256 KB
+         Full Stripe Size: 512 KB
+         Status: Interim Recovery Mode
+         Caching:  Enabled
+         Unique Identifier: 600508B1001C5134BD0D3BEC3A177B03
+         Disk Name: /dev/sdc
+         Mount Points: /var/lib/sheepdog/journal 2.0 GB, /var/lib/sheepdog/disc0 1.6 TB
+         OS Status: LOCKED
+         Logical Drive Label: AEE78CF9PACCRID104728PD97EE
+         Mirror Group 0:
+            physicaldrive 2I:0:5 (port 2I:box 0:bay 5, SATA, 2 TB, Failed)
+            physicaldrive 2I:0:6 (port 2I:box 0:bay 6, SATA, 2 TB, OK)
+         Mirror Group 1:
+            physicaldrive 2I:0:7 (port 2I:box 0:bay 7, SATA, 2 TB, OK)
+            physicaldrive 2I:0:8 (port 2I:box 0:bay 8, SATA, 2 TB, OK)
+         Drive Type: Data
+
+      physicaldrive 2I:0:5
+         Port: 2I
+         Box: 0
+         Bay: 5
+         Status: Failed
+         Last Failure Reason: Write retries failed
+         Drive Type: Data Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Firmware Revision: 51.0AB51
+         Serial Number:      WD-WCAZA7095462
+         Model: ATA     WDC WD20EARX-00P
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         Current Temperature (C): 26
+         Maximum Temperature (C): 41
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+      physicaldrive 2I:0:6
+         Port: 2I
+         Box: 0
+         Bay: 6
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 7200
+         Firmware Revision: CC13    
+         Serial Number:             9WM09DV4
+         Model: ATA     ST32000641AS    
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+      physicaldrive 2I:0:7
+         Port: 2I
+         Box: 0
+         Bay: 7
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 7200
+         Firmware Revision: MN6OA5C0
+         Serial Number:       MN1220F32R8RDD
+         Model: ATA     Hitachi HDS72302
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         Current Temperature (C): 24
+         Maximum Temperature (C): 50
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+      physicaldrive 2I:0:8
+         Port: 2I
+         Box: 0
+         Bay: 8
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 7200
+         Firmware Revision: CC13    
+         Serial Number:             9WM50APS
+         Model: ATA     ST32000641AS    
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+
+   SEP (Vendor ID PMCSIERA, Model  SRC 8x6G) 250
+      Device Number: 250
+      Firmware Version: RevC
+      WWID: 5001438010C6012F
+      Vendor ID: PMCSIERA
+      Model:  SRC 8x6G       
+

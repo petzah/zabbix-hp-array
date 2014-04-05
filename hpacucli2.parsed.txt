@@ -1,0 +1,201 @@
+$VAR1 = {
+          '1' => {
+                   'total_cache_memory_available' => '400 MB',
+                   'cache_serial_number' => 'PAAVPID13240115',
+                   'cache_backup_power_source' => 'Batteries',
+                   'surface_scan_mode' => 'Idle',
+                   'array' => {
+                                'A' => {
+                                         'logical_drive' => {
+                                                              '2' => {
+                                                                       'mount_points' => 'None',
+                                                                       'logical_drive_label' => 'AEE78CE9PACCRID104728PDD6CA',
+                                                                       'caching' => 'Enabled',
+                                                                       'unique_identifier' => '600508B1001C640F29F7186291124D1C',
+                                                                       'size' => '2.0 TB',
+                                                                       'status' => 'Interim Recovery Mode',
+                                                                       'disk_name' => '/dev/sdb',
+                                                                       'heads' => '255',
+                                                                       'fault_tolerance' => '1+0',
+                                                                       'cylinders' => '65535',
+                                                                       'mirror_group' => {
+                                                                                           '1' => [
+                                                                                                    '2I:0:7',
+                                                                                                    '2I:0:8'
+                                                                                                  ],
+                                                                                           '0' => [
+                                                                                                    '2I:0:5',
+                                                                                                    '2I:0:6'
+                                                                                                  ]
+                                                                                         },
+                                                                       'sectors_per_track' => '32',
+                                                                       'strip_size' => '256 KB',
+                                                                       'full_stripe_size' => '512 KB'
+                                                                     },
+                                                              '1' => {
+                                                                       'full_stripe_size' => '512 KB',
+                                                                       'strip_size' => '256 KB',
+                                                                       'mirror_group' => {
+                                                                                           '1' => [
+                                                                                                    '2I:0:7',
+                                                                                                    '2I:0:8'
+                                                                                                  ],
+                                                                                           '0' => [
+                                                                                                    '2I:0:5',
+                                                                                                    '2I:0:6'
+                                                                                                  ]
+                                                                                         },
+                                                                       'sectors_per_track' => '32',
+                                                                       'cylinders' => '7710',
+                                                                       'fault_tolerance' => '1+0',
+                                                                       'heads' => '255',
+                                                                       'disk_name' => '/dev/sda',
+                                                                       'status' => 'Interim Recovery Mode',
+                                                                       'os_status' => 'LOCKED',
+                                                                       'unique_identifier' => '600508B1001CBBF4AFF3D01F1839D647',
+                                                                       'size' => '30.0 GB',
+                                                                       'caching' => 'Enabled',
+                                                                       'logical_drive_label' => 'AEE78CC8PACCRID104728PD36F9',
+                                                                       'mount_points' => '/boot 512 MB'
+                                                                     },
+                                                              '3' => {
+                                                                       'mount_points' => '/var/lib/sheepdog/journal 2.0 GB, /var/lib/sheepdog/disc0 1.6 TB',
+                                                                       'logical_drive_label' => 'AEE78CF9PACCRID104728PD97EE',
+                                                                       'caching' => 'Enabled',
+                                                                       'unique_identifier' => '600508B1001C5134BD0D3BEC3A177B03',
+                                                                       'size' => '1.6 TB',
+                                                                       'os_status' => 'LOCKED',
+                                                                       'status' => 'Interim Recovery Mode',
+                                                                       'disk_name' => '/dev/sdc',
+                                                                       'heads' => '255',
+                                                                       'cylinders' => '65535',
+                                                                       'fault_tolerance' => '1+0',
+                                                                       'mirror_group' => {
+                                                                                           '1' => [
+                                                                                                    '2I:0:7',
+                                                                                                    '2I:0:8'
+                                                                                                  ],
+                                                                                           '0' => [
+                                                                                                    '2I:0:5',
+                                                                                                    '2I:0:6'
+                                                                                                  ]
+                                                                                         },
+                                                                       'sectors_per_track' => '32',
+                                                                       'strip_size' => '256 KB',
+                                                                       'full_stripe_size' => '512 KB'
+                                                                     }
+                                                            },
+                                         'unused_space' => '0 MB',
+                                         'interface_type' => 'SATA',
+                                         'physical_drive' => {
+                                                               '2I:0:6' => {
+                                                                             'interface_type' => 'SATA',
+                                                                             'serial_number' => '9WM09DV4',
+                                                                             'sata_ncq_enabled' => 'True',
+                                                                             'phy_transfer_rate' => '3.0Gbps',
+                                                                             'box' => '0',
+                                                                             'port' => '2I',
+                                                                             'bay' => '6',
+                                                                             'model' => 'ATA ST32000641AS',
+                                                                             'phy_count' => '1',
+                                                                             'rotational_speed' => '7200',
+                                                                             'drive_type' => 'Data Drive',
+                                                                             'firmware_revision' => 'CC13',
+                                                                             'size' => '2 TB',
+                                                                             'status' => 'OK',
+                                                                             'sata_ncq_capable' => 'True'
+                                                                           },
+                                                               '2I:0:7' => {
+                                                                             'model' => 'ATA Hitachi HDS72302',
+                                                                             'firmware_revision' => 'MN6OA5C0',
+                                                                             'drive_type' => 'Data Drive',
+                                                                             'size' => '2 TB',
+                                                                             'sata_ncq_enabled' => 'True',
+                                                                             'port' => '2I',
+                                                                             'rotational_speed' => '7200',
+                                                                             'phy_count' => '1',
+                                                                             'status' => 'OK',
+                                                                             'maximum_temperature_c' => '50',
+                                                                             'sata_ncq_capable' => 'True',
+                                                                             'current_temperature_c' => '24',
+                                                                             'serial_number' => 'MN1220F32R8RDD',
+                                                                             'interface_type' => 'SATA',
+                                                                             'bay' => '7',
+                                                                             'box' => '0',
+                                                                             'phy_transfer_rate' => '3.0Gbps'
+                                                                           },
+                                                               '2I:0:5' => {
+                                                                             'size' => '2 TB',
+                                                                             'model' => 'ATA WDC WD20EARX-00P',
+                                                                             'firmware_revision' => '51.0AB51',
+                                                                             'drive_type' => 'Data Drive',
+                                                                             'port' => '2I',
+                                                                             'sata_ncq_enabled' => 'True',
+                                                                             'maximum_temperature_c' => '41',
+                                                                             'status' => 'Failed',
+                                                                             'sata_ncq_capable' => 'True',
+                                                                             'phy_count' => '1',
+                                                                             'last_failure_reason' => 'Write retries failed',
+                                                                             'box' => '0',
+                                                                             'phy_transfer_rate' => '3.0Gbps',
+                                                                             'bay' => '5',
+                                                                             'serial_number' => 'WD-WCAZA7095462',
+                                                                             'interface_type' => 'SATA',
+                                                                             'current_temperature_c' => '26'
+                                                                           },
+                                                               '2I:0:8' => {
+                                                                             'wwid' => '5001438010C6012F',
+                                                                             'interface_type' => 'SATA',
+                                                                             'serial_number' => '9WM50APS',
+                                                                             'bay' => '8',
+                                                                             'box' => '0',
+                                                                             'phy_transfer_rate' => '3.0Gbps',
+                                                                             'rotational_speed' => '7200',
+                                                                             'phy_count' => '1',
+                                                                             'firmware_version' => 'RevC',
+                                                                             'status' => 'OK',
+                                                                             'sata_ncq_capable' => 'True',
+                                                                             'sata_ncq_enabled' => 'True',
+                                                                             'port' => '2I',
+                                                                             'vendor_id' => 'PMCSIERA',
+                                                                             'model' => 'SRC 8x6G',
+                                                                             'drive_type' => 'Data Drive',
+                                                                             'device_number' => '250',
+                                                                             'firmware_revision' => 'CC13',
+                                                                             'size' => '2 TB'
+                                                                           }
+                                                             },
+                                         'status' => 'Failed Physical Drive',
+                                         'array_type' => 'Data'
+                                       }
+                              },
+                   'description' => 'Smart Array P410 in Slot 2',
+                   'expand_priority' => 'Medium',
+                   'drive_write_cache' => 'Enabled',
+                   'bus_interface' => 'PCI',
+                   'surface_scan_delay' => '3 secs',
+                   'cache_status' => 'OK',
+                   'sata_ncq_supported' => 'True',
+                   'monitor_and_performance_delay' => '60 min',
+                   'no_battery_write_cache' => 'Enabled',
+                   'firmware_version' => '6.40',
+                   'queue_depth' => 'Automatic',
+                   'elevator_sort' => 'Enabled',
+                   'raid_6_adg_status' => 'Disabled',
+                   'cache_ratio' => '25% Read / 75% Write',
+                   'cache_board_present' => 'True',
+                   'hardware_revision' => 'C',
+                   'inconsistency_repair_policy' => 'Disabled',
+                   'serial_number' => 'PACCRID104728PD',
+                   'controller_status' => 'OK',
+                   'total_cache_size' => '512 MB',
+                   'post_prompt_timeout' => '15 secs',
+                   'battery_capacitor_status' => 'OK',
+                   'wait_for_cache_room' => 'Disabled',
+                   'degraded_performance_optimization' => 'Disabled',
+                   'surface_analysis_inconsistency_notification' => 'Disabled',
+                   'battery_capacitor_count' => '1',
+                   'slot' => '2',
+                   'rebuild_priority' => 'Medium'
+                 }
+        };
