@@ -111,6 +111,11 @@ sub controller_item {
     print $controllers->{$controllerid}->{$item};
 }
 
+sub array_item {
+    my ($controllerid, $arrayid, $item) = @_;
+    print $controllers->{$controllerid}->{'array'}->{$arrayid}->{$item} if defined $controllers->{$controllerid}->{'array'}->{$arrayid}->{$item} ;
+}
+
 sub logicaldrive_item {
     my ($controllerid, $log, $item) = @_;
     
@@ -144,6 +149,7 @@ switch ($ARGV[0]) {
     case "physicaldrive_discovery" { physicaldrive_discovery(); }
 
     case "controller_item" { controller_item($ARGV[1], $ARGV[2]); }
+    case "array_item" { array_item($ARGV[1], $ARGV[2], $ARGV[3]); }
     case "logicaldrive_item" { logicaldrive_item($ARGV[1], $ARGV[2], $ARGV[3]); }
     case "physicaldrive_item" { physicaldrive_item($ARGV[1], $ARGV[2], $ARGV[3]); }
 }
