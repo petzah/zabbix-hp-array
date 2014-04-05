@@ -1,6 +1,7 @@
 #!/usr/bin/perl
 
-# require sudo or root access (due to hpacucli binary) or it can read from file
+# reqire Parse::HP::ACU from cpan or for debian it can be downloaded from https://znik.sk/deb/pool/ (see https://github.com/petzah/libparse-hp-acu-perl)
+# require sudo or root access (for hpacucli binary) or it can read from file
 
 use strict;
 use Parse::HP::ACU;
