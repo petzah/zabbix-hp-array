@@ -130,14 +130,12 @@ sub logicaldrive_item {
 }
 
 sub physicaldrive_item {
-    my ($controllerid, $phy, $item) = @_;
+    my ($controllerid, $arrayid, $phy, $item) = @_;
     
     # search for physical drive
-    foreach my $arrayid (keys $controllers->{$controllerid}->{'array'}) {
-        foreach my $physicaldriveid (keys $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}) {
-            if ($phy eq $physicaldriveid) {
-                print $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}->{$physicaldriveid}->{$item};
-            } 
+    foreach my $physicaldriveid (keys $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}) {
+        if ($phy eq $physicaldriveid) {
+            print $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}->{$physicaldriveid}->{$item};
         }
     }
 }
@@ -151,5 +149,5 @@ switch ($ARGV[0]) {
     case "controller_item" { controller_item($ARGV[1], $ARGV[2]); }
     case "array_item" { array_item($ARGV[1], $ARGV[2], $ARGV[3]); }
     case "logicaldrive_item" { logicaldrive_item($ARGV[1], $ARGV[2], $ARGV[3]); }
-    case "physicaldrive_item" { physicaldrive_item($ARGV[1], $ARGV[2], $ARGV[3]); }
+    case "physicaldrive_item" { physicaldrive_item($ARGV[1], $ARGV[2], $ARGV[3], $ARGV[4]); }
 }

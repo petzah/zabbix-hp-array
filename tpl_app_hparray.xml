@@ -2210,12 +2210,12 @@
                     <description>Discovers physical drives in HP controller</description>
                     <item_prototypes>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-bay</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-bay</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},bay]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},bay]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2252,12 +2252,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-box</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-box</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},box]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},box]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2294,12 +2294,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-current_temperature_c</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-current_temperature_c</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},current_temperature_c]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},current_temperature_c]</key>
                             <delay>300</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2336,12 +2336,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-device_number</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-device_number</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},device_number]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},device_number]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2378,12 +2378,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-drive_type</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-drive_type</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},drive_type]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},drive_type]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2420,12 +2420,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-firmware_revision</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-firmware_revision</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},firmware_revision]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},firmware_revision]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2462,12 +2462,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-interface_type</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-interface_type</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},interface_type]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},interface_type]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2504,12 +2504,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-last_failure_reason</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-last_failure_reason</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},last_failure_reason]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},last_failure_reason]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2546,12 +2546,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-maximum_temperature_c</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-maximum_temperature_c</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},maximum_temperature_c]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},maximum_temperature_c]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2588,12 +2588,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-model</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-model</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},model]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},model]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2630,12 +2630,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-phy_count</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-phy_count</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},phy_count]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},phy_count]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2672,12 +2672,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-phy_transfer_rate</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-phy_transfer_rate</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},phy_transfer_rate]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},phy_transfer_rate]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2714,12 +2714,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-port</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-port</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},port]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},port]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2756,12 +2756,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-rotational_speed</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-rotational_speed</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},rotational_speed]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},rotational_speed]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2798,12 +2798,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-sata_ncq_capable</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-sata_ncq_capable</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},sata_ncq_capable]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},sata_ncq_capable]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2840,12 +2840,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-sata_ncq_enabled</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-sata_ncq_enabled</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},sata_ncq_enabled]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},sata_ncq_enabled]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2882,12 +2882,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-serial_number</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-serial_number</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},serial_number]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},serial_number]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2924,12 +2924,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-size</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-size</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},size]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},size]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -2966,12 +2966,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-status</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-status</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},status]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},status]</key>
                             <delay>300</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -3008,12 +3008,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-vendor_id</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-vendor_id</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},vendor_id]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},vendor_id]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -3050,12 +3050,12 @@
                             <valuemap/>
                         </item_prototype>
                         <item_prototype>
-                            <name>hpacu-phydrive-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-wwid</name>
+                            <name>hpacu-phy-{#HPACUPHYID}-ctrl-{#HPACUCTRLID}-arr-{#HPACUARRID}-wwid</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
                             <snmp_oid/>
-                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},wwid]</key>
+                            <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},wwid]</key>
                             <delay>86400</delay>
                             <history>7</history>
                             <trends>365</trends>
@@ -3094,7 +3094,7 @@
                     </item_prototypes>
                     <trigger_prototypes>
                         <trigger_prototype>
-                            <expression>{tpl_app_hparray:hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},current_temperature_c].last()}&gt;30</expression>
+                            <expression>{tpl_app_hparray:hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},current_temperature_c].last()}&gt;30</expression>
                             <name>HPACU physical drive {#HPACUPHYID} current_temperature_c on {HOST.HOST} is {ITEM.LASTVALUE}</name>
                             <url/>
                             <status>0</status>
@@ -3103,7 +3103,7 @@
                             <type>0</type>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{tpl_app_hparray:hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},status].regexp(OK)}#1</expression>
+                            <expression>{tpl_app_hparray:hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},status].regexp(OK)}#1</expression>
                             <name>HPACU physical drive {#HPACUPHYID} status on {HOST.HOST} is {ITEM.LASTVALUE}</name>
                             <url/>
                             <status>0</status>
@@ -3140,7 +3140,7 @@
                                     <type>0</type>
                                     <item>
                                         <host>tpl_app_hparray</host>
-                                        <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUPHYID},current_temperature_c]</key>
+                                        <key>hpacu.physicaldrive.item[{#HPACUCTRLID},{#HPACUARRID},{#HPACUPHYID},current_temperature_c]</key>
                                     </item>
                                 </graph_item>
                             </graph_items>

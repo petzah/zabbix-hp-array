@@ -1,0 +1,243 @@
+$controllers = {
+                 '2' => {
+                          'battery_capacitor_status' => 'OK',
+                          'description' => 'Smart Array P800 in Slot 1',
+                          'raid_6_adg_status' => 'Enabled',
+                          'elevator_sort' => 'Enabled',
+                          'accelerator_ratio' => {
+                                                   'read' => '25',
+                                                   'write' => '75'
+                                                 },
+                          'degraded_performance_optimization' => 'Disabled',
+                          'array' => {
+                                       'A' => {
+                                                'physical_drive' => {
+                                                                      '2' => {
+                                                                               'phy_transfer_rate' => '3.0GBPS, Unknown',
+                                                                               'phy_count' => '2',
+                                                                               'status' => 'OK',
+                                                                               'drive_type' => 'Data Drive',
+                                                                               'interface_type' => 'SAS',
+                                                                               'firmware_revision' => 'HPDD',
+                                                                               'model' => 'HP EG0300FAWHV',
+                                                                               'bay' => '10',
+                                                                               'size' => '300 GB',
+                                                                               'port' => '2E',
+                                                                               'rotational_speed' => '10000',
+                                                                               'box' => '1',
+                                                                               'serial_number' => '6SE02EQT00009032YZDJ'
+                                                                             }
+                                                                    },
+                                                'logical_drive' => {
+                                                                     '1' => {
+                                                                              'mount_points' => 'None',
+                                                                              'fault_tolerance' => 'RAID 1+0',
+                                                                              'array_accelerator' => 'Enabled',
+                                                                              'heads' => '255',
+                                                                              'unique_identifier' => '600508B1001054395359503044320000',
+                                                                              'status' => 'OK',
+                                                                              'mirror_group' => {
+                                                                                                  '0' => [],
+                                                                                                  '1' => []
+                                                                                                },
+                                                                              'sectors_per_track' => '32',
+                                                                              'size' => '1.4 TB',
+                                                                              'stripe_size' => '128 KB',
+                                                                              'multidomain_status' => 'OK',
+                                                                              'logical_drive_label' => 'A006EA79PAFGF0T9SYP0D2B18F',
+                                                                              'cylinders' => '65535',
+                                                                              'disk_name' => '/dev/cciss/c1d0'
+                                                                            }
+                                                                   },
+                                                'interface_type' => 'SAS',
+                                                'multidomain_status' => 'OK',
+                                                'unused_space' => '0 MB',
+                                                'status' => 'OK'
+                                              }
+                                     },
+                          'serial_number' => 'PAFGF0T9SYP0D2',
+                          'controller_status' => 'OK',
+                          'firmware_version' => '5.22',
+                          'bus_interface' => 'PCI',
+                          'cache_board_present' => 'True',
+                          'post_prompt_timeout' => '0 secs',
+                          'expand_priority' => 'Medium',
+                          'slot' => '1',
+                          'rebuild_priority' => 'Medium',
+                          'queue_depth' => 'Automatic',
+                          'surface_scan_delay' => '15 secs',
+                          'cache_serial_number' => 'PA82B0A9SYRW9F',
+                          'total_cache_size' => '512 MB',
+                          'cache_backup_power_source' => 'Batteries',
+                          'hardware_revision' => 'Rev E',
+                          'no_battery_write_cache' => 'Disabled',
+                          'monitor_and_performance_delay' => '60 min',
+                          'sata_ncq_supported' => 'True',
+                          'drive_write_cache' => 'Disabled',
+                          'inconsistency_repair_policy' => 'Disabled',
+                          'cache_status' => 'OK',
+                          'battery_capacitor_count' => '2'
+                        },
+                 '1' => {
+                          'total_cache_size' => '256 MB',
+                          'cache_backup_power_source' => 'Batteries',
+                          'hardware_revision' => 'Rev C',
+                          'no_battery_write_cache' => 'Disabled',
+                          'monitor_and_performance_delay' => '60 min',
+                          'surface_analysis_inconsistency_notification' => 'Disabled',
+                          'sata_ncq_supported' => 'True',
+                          'drive_write_cache' => 'Disabled',
+                          'inconsistency_repair_policy' => 'Disabled',
+                          'cache_status' => 'OK',
+                          'battery_capacitor_count' => '1',
+                          'battery_capacitor_status' => 'OK',
+                          'description' => 'Smart Array P410i in Slot 0 (Embedded)',
+                          'raid_6_adg_status' => 'Disabled',
+                          'degraded_performance_optimization' => 'Disabled',
+                          'accelerator_ratio' => {
+                                                   'write' => '75',
+                                                   'read' => '25'
+                                                 },
+                          'elevator_sort' => 'Enabled',
+                          'array' => {
+                                       'A' => {
+                                                'logical_drive' => {
+                                                                     '1' => {
+                                                                              'mount_points' => '/boot 101 MB',
+                                                                              'fault_tolerance' => 'RAID 1+0',
+                                                                              'unique_identifier' => '600508B1001037383941424344450500',
+                                                                              'status' => 'OK',
+                                                                              'mirror_group' => {
+                                                                                                  '1' => [
+                                                                                                           '1I:1:4',
+                                                                                                           '2I:1:5',
+                                                                                                           '2I:1:6'
+                                                                                                         ],
+                                                                                                  '0' => [
+                                                                                                           '1I:1:1',
+                                                                                                           '1I:1:2',
+                                                                                                           '1I:1:3'
+                                                                                                         ]
+                                                                                                },
+                                                                              'heads' => '255',
+                                                                              'array_accelerator' => 'Enabled',
+                                                                              'stripe_size' => '128 KB',
+                                                                              'sectors_per_track' => '32',
+                                                                              'size' => '410.1 GB',
+                                                                              'disk_name' => '/dev/cciss/c0d0',
+                                                                              'logical_drive_label' => 'A0050D9850123456789ABCDE8644',
+                                                                              'cylinders' => '65535'
+                                                                            }
+                                                                   },
+                                                'physical_drive' => {
+                                                                      '2I:1:6' => {
+                                                                                    'phy_count' => '2',
+                                                                                    'phy_transfer_rate' => '3.0GBPS, Unknown',
+                                                                                    'firmware_revision' => 'HPDD',
+                                                                                    'interface_type' => 'SAS',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'status' => 'OK',
+                                                                                    'rotational_speed' => '15000',
+                                                                                    'port' => '2I',
+                                                                                    'size' => '146 GB',
+                                                                                    'model' => 'HP EH0146FAWJB',
+                                                                                    'bay' => '6',
+                                                                                    'serial_number' => '3TB1340600009027YPU1',
+                                                                                    'box' => '1'
+                                                                                  },
+                                                                      '1I:1:2' => {
+                                                                                    'firmware_revision' => 'HPDD',
+                                                                                    'interface_type' => 'SAS',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'status' => 'OK',
+                                                                                    'phy_count' => '2',
+                                                                                    'phy_transfer_rate' => '3.0GBPS, Unknown',
+                                                                                    'box' => '1',
+                                                                                    'serial_number' => '3TB14QET00009027WXL8',
+                                                                                    'port' => '1I',
+                                                                                    'rotational_speed' => '15000',
+                                                                                    'size' => '146 GB',
+                                                                                    'model' => 'HP EH0146FAWJB',
+                                                                                    'bay' => '2'
+                                                                                  },
+                                                                      '1I:1:3' => {
+                                                                                    'size' => '146 GB',
+                                                                                    'rotational_speed' => '15000',
+                                                                                    'port' => '1I',
+                                                                                    'bay' => '3',
+                                                                                    'model' => 'HP EH0146FAWJB',
+                                                                                    'box' => '1',
+                                                                                    'serial_number' => '3TB14RA100009027ZJYB',
+                                                                                    'phy_transfer_rate' => '3.0GBPS, Unknown',
+                                                                                    'phy_count' => '2',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'interface_type' => 'SAS',
+                                                                                    'firmware_revision' => 'HPDD',
+                                                                                    'status' => 'OK'
+                                                                                  },
+                                                                      '2I:1:5' => {
+                                                                                    'interface_type' => 'SAS',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'firmware_revision' => 'HPDD',
+                                                                                    'status' => 'OK',
+                                                                                    'phy_transfer_rate' => '3.0GBPS, Unknown',
+                                                                                    'phy_count' => '2',
+                                                                                    'box' => '1',
+                                                                                    'serial_number' => '3TB14ZJQ00009027ZGHF',
+                                                                                    'size' => '146 GB',
+                                                                                    'port' => '2I',
+                                                                                    'rotational_speed' => '15000',
+                                                                                    'bay' => '5',
+                                                                                    'model' => 'HP EH0146FAWJB'
+                                                                                  },
+                                                                      '1I:1:4' => {
+                                                                                    'serial_number' => '3TB12YKF00009027HME4',
+                                                                                    'box' => '1',
+                                                                                    'model' => 'HP EH0146FAWJB',
+                                                                                    'bay' => '4',
+                                                                                    'rotational_speed' => '15000',
+                                                                                    'port' => '1I',
+                                                                                    'size' => '146 GB',
+                                                                                    'status' => 'OK',
+                                                                                    'firmware_revision' => 'HPDD',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'interface_type' => 'SAS',
+                                                                                    'phy_count' => '2',
+                                                                                    'phy_transfer_rate' => '3.0GBPS, Unknown'
+                                                                                  },
+                                                                      '1I:1:1' => {
+                                                                                    'phy_count' => '2',
+                                                                                    'phy_transfer_rate' => '3.0GBPS, Unknown',
+                                                                                    'firmware_revision' => 'HPDD',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'interface_type' => 'SAS',
+                                                                                    'status' => 'OK',
+                                                                                    'port' => '1I',
+                                                                                    'rotational_speed' => '15000',
+                                                                                    'size' => '146 GB',
+                                                                                    'bay' => '1',
+                                                                                    'model' => 'HP EH0146FAWJB',
+                                                                                    'box' => '1',
+                                                                                    'serial_number' => '3TB150EA00009027YKMS'
+                                                                                  }
+                                                                    },
+                                                'status' => 'OK',
+                                                'unused_space' => '0 MB',
+                                                'interface_type' => 'SAS'
+                                              }
+                                     },
+                          'serial_number' => '50123456789ABCDE',
+                          'controller_status' => 'OK',
+                          'firmware_version' => '2.74',
+                          'bus_interface' => 'PCI',
+                          'cache_board_present' => 'True',
+                          'post_prompt_timeout' => '0 secs',
+                          'expand_priority' => 'Medium',
+                          'slot' => '0',
+                          'surface_scan_delay' => '15 secs',
+                          'queue_depth' => 'Automatic',
+                          'cache_serial_number' => 'PACCQ9VY24Q4',
+                          'rebuild_priority' => 'Medium',
+                          'wait_for_cache_room' => 'Disabled'
+                        }
+               };
