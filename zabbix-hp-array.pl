@@ -32,6 +32,7 @@ if ((time - $mtimestamp) > $cacheexpire) {
 
 # get controllers from cache file
 $controllers = eval { do $file };
+exit 255 if ! $controllers;
 
 sub parse {
     my $acu = Parse::HP::ACU->new();
