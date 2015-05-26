@@ -103,6 +103,15 @@ sub physicaldrive_discovery {
                 });
             }
         }
+        # unassigned
+        foreach my $physicaldriveid (keys %{$controllers->{$controllerid}->{'unassigned'}->{'physical_drive'}}) {
+                push(@out, {
+                    '{#HPACUPHYID}'=>$physicaldriveid,
+                    '{#HPACUPHYSN}'=>$controllers->{$controllerid}->{'unassigned'}->{'physical_drive'}->{$physicaldriveid}->{'serial_number'},
+                    '{#HPACUCTRLID}'=>$controllerid,
+                    '{#HPACUARRID}'=>'unassigned'
+                });
+        }
     }
     print encode_json({'data'=>\@out});
 }
@@ -132,11 +141,21 @@ sub logicaldrive_item {
 
 sub physicaldrive_item {
     my ($controllerid, $arrayid, $phy, $item) = @_;
-    
-    # search for physical drive
-    foreach my $physicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}}) {
-        if ($phy eq $physicaldriveid) {
-            print $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}->{$physicaldriveid}->{$item};
+
+    if ($arrayid eq "unassigned") {
+        #search for unassigned physical drive
+        foreach my $physicaldriveid (keys %{$controllers->{$controllerid}->{'unassigned'}->{'physical_drive'}}) {
+            if ($phy eq $physicaldriveid) {
+                print $controllers->{$controllerid}->{'unassigned'}->{'physical_drive'}->{$physicaldriveid}->{$item};
+            }
+        }
+    }
+    else {
+        # search for assigned physical drive
+        foreach my $physicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}}) {
+            if ($phy eq $physicaldriveid) {
+                print $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}->{$physicaldriveid}->{$item};
+            }
         }
     }
 }
