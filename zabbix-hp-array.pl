@@ -62,7 +62,7 @@ sub controller_discovery {
 sub array_discovery {
     my @out;
     foreach my $controllerid (keys %$controllers) {
-        foreach my $arrayid (keys $controllers->{$controllerid}->{'array'}) {
+        foreach my $arrayid (keys %{$controllers->{$controllerid}->{'array'}})  {
             push(@out, {
                 '{#HPACUCTRLID}'=>$controllerid,
                 '{#HPACUARRID}'=> $arrayid
@@ -75,8 +75,8 @@ sub array_discovery {
 sub logicaldrive_discovery {
     my @out;
     foreach my $controllerid (keys %$controllers) {
-        foreach my $arrayid (keys $controllers->{$controllerid}->{'array'}) {
-            foreach my $logicaldriveid (keys $controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}) {
+        foreach my $arrayid (keys %{$controllers->{$controllerid}->{'array'}}) {
+            foreach my $logicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}}) {
                 push(@out, {
                     '{#HPACULOGID}'=>$logicaldriveid,
                     '{#HPACULOGUN}'=>$controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}->{$logicaldriveid}->{'unique_identifier'},
@@ -92,8 +92,8 @@ sub logicaldrive_discovery {
 sub physicaldrive_discovery {
     my @out;
     foreach my $controllerid (keys %$controllers) {
-        foreach my $arrayid (keys $controllers->{$controllerid}->{'array'}) {
-            foreach my $physicaldriveid (keys $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}) {
+        foreach my $arrayid (keys %{$controllers->{$controllerid}->{'array'}}) {
+            foreach my $physicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}}) {
                 push(@out, {
                     '{#HPACUPHYID}'=>$physicaldriveid,
                     '{#HPACUPHYSN}'=>$controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}->{$physicaldriveid}->{'serial_number'},
@@ -120,8 +120,8 @@ sub logicaldrive_item {
     my ($controllerid, $log, $item) = @_;
     
     # search for logical drive
-    foreach my $arrayid (keys $controllers->{$controllerid}->{'array'}) {
-        foreach my $logicaldriveid (keys $controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}) {
+    foreach my $arrayid (keys %{$controllers->{$controllerid}->{'array'}}) {
+        foreach my $logicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}}) {
             if ($log eq $logicaldriveid) {
                 print $controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}->{$logicaldriveid}->{$item};
             }
@@ -133,7 +133,7 @@ sub physicaldrive_item {
     my ($controllerid, $arrayid, $phy, $item) = @_;
     
     # search for physical drive
-    foreach my $physicaldriveid (keys $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}) {
+    foreach my $physicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}}) {
         if ($phy eq $physicaldriveid) {
             print $controllers->{$controllerid}->{'array'}->{$arrayid}->{'physical_drive'}->{$physicaldriveid}->{$item};
         }
