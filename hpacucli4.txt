@@ -1,0 +1,150 @@
+
+Smart Array P410 in Slot 2
+   Bus Interface: PCI
+   Slot: 2
+   Serial Number: PAXXR9VY1LTE
+   Cache Serial Number: PXXVPCN80XC0YBJ
+   RAID 6 (ADG) Status: Disabled
+   Controller Status: OK
+   Hardware Revision: C
+   Firmware Version: 6.40
+   Rebuild Priority: Medium
+   Expand Priority: Medium
+   Surface Scan Delay: 15 secs
+   Surface Scan Mode: Idle
+   Queue Depth: Automatic
+   Monitor and Performance Delay: 60  min
+   Elevator Sort: Enabled
+   Degraded Performance Optimization: Disabled
+   Inconsistency Repair Policy: Disabled
+   Wait for Cache Room: Disabled
+   Surface Analysis Inconsistency Notification: Disabled
+   Post Prompt Timeout: 0 secs
+   Cache Board Present: True
+   Cache Status: OK
+   Cache Ratio: 25% Read / 75% Write
+   Drive Write Cache: Enabled
+   Total Cache Size: 512 MB
+   Total Cache Memory Available: 400 MB
+   No-Battery Write Cache: Enabled
+   Cache Backup Power Source: Batteries
+   Battery/Capacitor Count: 1
+   Battery/Capacitor Status: Failed (Replace Batteries)
+   SATA NCQ Supported: True
+
+   Array: A
+      Interface Type: SATA
+      Unused Space: 0  MB
+      Status: OK
+      Array Type: Data
+
+
+
+      Logical Drive: 1
+         Size: 1.8 TB
+         Fault Tolerance: 1
+         Heads: 255
+         Sectors Per Track: 32
+         Cylinders: 65535
+         Strip Size: 128 KB
+         Full Stripe Size: 128 KB
+         Status: OK
+         Caching:  Enabled
+         Unique Identifier: 600508B1001052395659314C54450400
+         Disk Name: /dev/sda
+         Mount Points: /boot 511 MB
+         OS Status: LOCKED
+         Logical Drive Label: A02D1C42PACCR9VY1LTE6B96
+         Mirror Group 0:
+            physicaldrive 2I:1:1 (port 2I:box 1:bay 1, SATA, 2 TB, OK)
+         Mirror Group 1:
+            physicaldrive 2I:1:2 (port 2I:box 1:bay 2, SATA, 2 TB, OK)
+         Drive Type: Data
+
+      physicaldrive 2I:1:1
+         Port: 2I
+         Box: 1
+         Bay: 1
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 5900
+         Firmware Revision: SC41    
+         Serial Number:             W1H1NCPA
+         Model: ATA     ST2000VN000-1H31
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         Current Temperature (C): 27
+         Maximum Temperature (C): 38
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+      physicaldrive 2I:1:2
+         Port: 2I
+         Box: 1
+         Bay: 2
+         Status: OK
+         Drive Type: Data Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 5900
+         Firmware Revision: SC41    
+         Serial Number:             W1H1NKQP
+         Model: ATA     ST2000VN000-1H31
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         Current Temperature (C): 27
+         Maximum Temperature (C): 38
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+
+   unassigned
+
+      physicaldrive 2I:1:3
+         Port: 2I
+         Box: 1
+         Bay: 3
+         Status: OK
+         Drive Type: Unassigned Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 7200
+         Firmware Revision: CC27    
+         Serial Number:             W1E6HK24
+         Model: ATA     ST2000DM001-1CH1
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         Current Temperature (C): 27
+         Maximum Temperature (C): 29
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+      physicaldrive 2I:1:4
+         Port: 2I
+         Box: 1
+         Bay: 4
+         Status: OK
+         Drive Type: Unassigned Drive
+         Interface Type: SATA
+         Size: 2 TB
+         Rotational Speed: 7200
+         Firmware Revision: CC27    
+         Serial Number:             W1E6GNAD
+         Model: ATA     ST2000DM001-1CH1
+         SATA NCQ Capable: True
+         SATA NCQ Enabled: True
+         Current Temperature (C): 27
+         Maximum Temperature (C): 31
+         PHY Count: 1
+         PHY Transfer Rate: 3.0Gbps
+
+
+   SEP (Vendor ID PMCSIERA, Model  SRC 8x6G) 250
+      Device Number: 250
+      Firmware Version: RevC
+      WWID: 50014380066EE6EF
+      Vendor ID: PMCSIERA
+      Model:  SRC 8x6G       
+

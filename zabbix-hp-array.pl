@@ -128,7 +128,7 @@ sub array_item {
 
 sub logicaldrive_item {
     my ($controllerid, $log, $item) = @_;
-    
+
     # search for logical drive
     foreach my $arrayid (keys %{$controllers->{$controllerid}->{'array'}}) {
         foreach my $logicaldriveid (keys %{$controllers->{$controllerid}->{'array'}->{$arrayid}->{'logical_drive'}}) {

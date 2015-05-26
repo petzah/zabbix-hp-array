@@ -1,0 +1,156 @@
+$controllers = {
+                 '1' => {
+                          'serial_number' => 'PAXXR9VY1LTE',
+                          'cache_backup_power_source' => 'Batteries',
+                          'battery_capacitor_count' => '1',
+                          'surface_scan_delay' => '15 secs',
+                          'cache_board_present' => 'True',
+                          'surface_analysis_inconsistency_notification' => 'Disabled',
+                          'wait_for_cache_room' => 'Disabled',
+                          'queue_depth' => 'Automatic',
+                          'unassigned' => {
+                                            'physical_drive' => {
+                                                                  '2I:1:3' => {
+                                                                                'serial_number' => 'W1E6HK24',
+                                                                                'sata_ncq_enabled' => 'True',
+                                                                                'firmware_revision' => 'CC27',
+                                                                                'status' => 'OK',
+                                                                                'model' => 'ATA ST2000DM001-1CH1',
+                                                                                'current_temperature_c' => '27',
+                                                                                'size' => '2 TB',
+                                                                                'rotational_speed' => '7200',
+                                                                                'bay' => '3',
+                                                                                'drive_type' => 'Unassigned Drive',
+                                                                                'phy_transfer_rate' => '3.0Gbps',
+                                                                                'phy_count' => '1',
+                                                                                'port' => '2I',
+                                                                                'interface_type' => 'SATA',
+                                                                                'sata_ncq_capable' => 'True',
+                                                                                'maximum_temperature_c' => '29',
+                                                                                'box' => '1'
+                                                                              },
+                                                                  '2I:1:4' => {
+                                                                                'serial_number' => 'W1E6GNAD',
+                                                                                'sata_ncq_enabled' => 'True',
+                                                                                'firmware_revision' => 'CC27',
+                                                                                'status' => 'OK',
+                                                                                'model' => 'SRC 8x6G',
+                                                                                'wwid' => '50014380066EE6EF',
+                                                                                'current_temperature_c' => '27',
+                                                                                'size' => '2 TB',
+                                                                                'rotational_speed' => '7200',
+                                                                                'bay' => '4',
+                                                                                'drive_type' => 'Unassigned Drive',
+                                                                                'vendor_id' => 'PMCSIERA',
+                                                                                'firmware_version' => 'RevC',
+                                                                                'phy_transfer_rate' => '3.0Gbps',
+                                                                                'phy_count' => '1',
+                                                                                'port' => '2I',
+                                                                                'interface_type' => 'SATA',
+                                                                                'sata_ncq_capable' => 'True',
+                                                                                'device_number' => '250',
+                                                                                'maximum_temperature_c' => '31',
+                                                                                'box' => '1'
+                                                                              }
+                                                                }
+                                          },
+                          'cache_status' => 'OK',
+                          'cache_ratio' => '25% Read / 75% Write',
+                          'rebuild_priority' => 'Medium',
+                          'controller_status' => 'OK',
+                          'bus_interface' => 'PCI',
+                          'total_cache_size' => '512 MB',
+                          'description' => 'Smart Array P410 in Slot 2',
+                          'cache_serial_number' => 'PXXVPCN80XC0YBJ',
+                          'drive_write_cache' => 'Enabled',
+                          'hardware_revision' => 'C',
+                          'expand_priority' => 'Medium',
+                          'degraded_performance_optimization' => 'Disabled',
+                          'no_battery_write_cache' => 'Enabled',
+                          'post_prompt_timeout' => '0 secs',
+                          'array' => {
+                                       'A' => {
+                                                'logical_drive' => {
+                                                                     '1' => {
+                                                                              'caching' => 'Enabled',
+                                                                              'mount_points' => '/boot 511 MB',
+                                                                              'status' => 'OK',
+                                                                              'cylinders' => '65535',
+                                                                              'os_status' => 'LOCKED',
+                                                                              'fault_tolerance' => '1',
+                                                                              'size' => '1.8 TB',
+                                                                              'mirror_group' => {
+                                                                                                  '1' => [
+                                                                                                           '2I:1:2'
+                                                                                                         ],
+                                                                                                  '0' => [
+                                                                                                           '2I:1:1'
+                                                                                                         ]
+                                                                                                },
+                                                                              'disk_name' => '/dev/sda',
+                                                                              'strip_size' => '128 KB',
+                                                                              'logical_drive_label' => 'A02D1C42PACCR9VY1LTE6B96',
+                                                                              'sectors_per_track' => '32',
+                                                                              'heads' => '255',
+                                                                              'unique_identifier' => '600508B1001052395659314C54450400',
+                                                                              'full_stripe_size' => '128 KB'
+                                                                            }
+                                                                   },
+                                                'interface_type' => 'SATA',
+                                                'array_type' => 'Data',
+                                                'status' => 'OK',
+                                                'unused_space' => '0 MB',
+                                                'physical_drive' => {
+                                                                      '2I:1:1' => {
+                                                                                    'serial_number' => 'W1H1NCPA',
+                                                                                    'sata_ncq_enabled' => 'True',
+                                                                                    'firmware_revision' => 'SC41',
+                                                                                    'status' => 'OK',
+                                                                                    'model' => 'ATA ST2000VN000-1H31',
+                                                                                    'current_temperature_c' => '27',
+                                                                                    'size' => '2 TB',
+                                                                                    'rotational_speed' => '5900',
+                                                                                    'bay' => '1',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'phy_transfer_rate' => '3.0Gbps',
+                                                                                    'phy_count' => '1',
+                                                                                    'port' => '2I',
+                                                                                    'interface_type' => 'SATA',
+                                                                                    'sata_ncq_capable' => 'True',
+                                                                                    'maximum_temperature_c' => '38',
+                                                                                    'box' => '1'
+                                                                                  },
+                                                                      '2I:1:2' => {
+                                                                                    'serial_number' => 'W1H1NKQP',
+                                                                                    'sata_ncq_enabled' => 'True',
+                                                                                    'firmware_revision' => 'SC41',
+                                                                                    'status' => 'OK',
+                                                                                    'model' => 'ATA ST2000VN000-1H31',
+                                                                                    'current_temperature_c' => '27',
+                                                                                    'size' => '2 TB',
+                                                                                    'rotational_speed' => '5900',
+                                                                                    'bay' => '2',
+                                                                                    'drive_type' => 'Data Drive',
+                                                                                    'phy_transfer_rate' => '3.0Gbps',
+                                                                                    'phy_count' => '1',
+                                                                                    'port' => '2I',
+                                                                                    'interface_type' => 'SATA',
+                                                                                    'sata_ncq_capable' => 'True',
+                                                                                    'maximum_temperature_c' => '38',
+                                                                                    'box' => '1'
+                                                                                  }
+                                                                    }
+                                              }
+                                     },
+                          'raid_6_adg_status' => 'Disabled',
+                          'total_cache_memory_available' => '400 MB',
+                          'slot' => '2',
+                          'surface_scan_mode' => 'Idle',
+                          'inconsistency_repair_policy' => 'Disabled',
+                          'firmware_version' => '6.40',
+                          'monitor_and_performance_delay' => '60 min',
+                          'battery_capacitor_status' => 'Failed (Replace Batteries)',
+                          'sata_ncq_supported' => 'True',
+                          'elevator_sort' => 'Enabled'
+                        }
+               };
